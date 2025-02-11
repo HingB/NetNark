@@ -111,3 +111,14 @@ footer a:hover {
     display: block;
     margin: 20px auto;
 }
+
+.left-image {
+width: 150px;
+height: 150px;
+
+}
+
+.contact-wrapper {
+    display: flex;
+    align-items: center;
+}
