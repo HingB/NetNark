@@ -188,3 +188,28 @@ footer {
     display: flex;
     align-items: center;
 }
+
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.auth-buttons button {
+    font-size: 14px;
+    padding: 7px 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.responsive-image1 {
+    width: 86vh;  /* Уменьшает картинку до 50% от ширины родительского контейнера */
+    height: auto;  /* Сохраняет пропорции изображения */
+}
+
+.containerImage {
+    display: flex;
+    justify-content: center; /* Центрирует по горизонтали */
+    align-items: center;     /* Центрирует по вертикали */
+}
